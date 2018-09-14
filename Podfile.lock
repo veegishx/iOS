@@ -1,0 +1,89 @@
+PODS:
+  - AppsFlyerFramework (4.8.8)
+  - CocoaAsyncSocket (7.6.3)
+  - Cryptex (0.0.5):
+    - Cryptex/All (= 0.0.5)
+    - CryptoSwift
+  - Cryptex/All (0.0.5):
+    - Cryptex/Binance
+    - Cryptex/Bitfinex
+    - Cryptex/BitGrail
+    - Cryptex/CoinExchange
+    - Cryptex/CoinMarketCap
+    - Cryptex/Cryptopia
+    - Cryptex/GDAX
+    - Cryptex/Gemini
+    - Cryptex/Koinex
+    - Cryptex/Kraken
+    - Cryptex/Poloniex
+    - CryptoSwift
+  - Cryptex/Binance (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Bitfinex (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/BitGrail (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/CoinExchange (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/CoinMarketCap (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Common (0.0.5):
+    - CryptoSwift
+  - Cryptex/Cryptopia (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/GDAX (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Gemini (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Koinex (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Kraken (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - Cryptex/Poloniex (0.0.5):
+    - Cryptex/Common
+    - CryptoSwift
+  - CryptoSwift (0.11.0)
+  - "NSData+FastHex (1.0.1)"
+  - ObjectMapper (3.3.0)
+  - XMRMiner (0.1.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - "NSData+FastHex"
+    - ObjectMapper (~> 3.0)
+
+DEPENDENCIES:
+  - AppsFlyerFramework
+  - Cryptex
+  - XMRMiner
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppsFlyerFramework
+    - CocoaAsyncSocket
+    - Cryptex
+    - CryptoSwift
+    - "NSData+FastHex"
+    - ObjectMapper
+    - XMRMiner
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: 323b1467c23dc6d6c397ecb39b96b72b909ed436
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Cryptex: a7125c1520abaa02f884fcec398f1ceed6c4ba91
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  "NSData+FastHex": a22ad031ee10a4297d0bf4d20cf03406a4476169
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  XMRMiner: f7704f21d2418a751b6d7ca64263e2b917a89191
+
+PODFILE CHECKSUM: 50b5aa9b185eb5e69ac5da7cc6595ee283011767
+
+COCOAPODS: 1.5.3
